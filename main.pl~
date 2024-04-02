@@ -13,23 +13,22 @@ animal(frog, amphibian, eggs, 4, meat, jump, low).
 animal(salmon, fish, eggs, 0, meat, swim, low).
 animal(elephant, mammal, live_birth, 4, vegetable, walk, high).
 animal(penguin, bird, eggs, 2, fish, swim, medium).
-animal(dolphin, mammal, live_birth, 0, fish, swim, high).
+animal(dolphin, mammal,live_birth, 0, fish, swim, high).
 animal(giraffe, mammal, live_birth, 4, vegetable, walk, medium).
-animal(Tanzeel, lion, mammal, live_birth, 4, meat, run, high).
-animal(ishrat, eagle, bird, eggs, 2, meat, fly, high).
-animal(arslan, kangaroo, mammal, live_birth, 2, vegetable, jump, medium).
-animal(adil, snake, reptile, eggs, 0, meat, crawl, medium).
-animal(aneeq, dolphin, mammal, live_birth, 0, fish, swim, high).
-animal(usama,giraffe, mammal, live_birth, 4, vegetable, walk, medium).
-animal(awais, frog, amphibian, eggs, 4, meat, jump, low).
-animal( sharjeel, penguin, bird, eggs, 2, fish, swim, medium).
-animal(abdul, elephant, mammal, live_birth, 4, vegetable, walk, high).
-animal(ayaz, salmon, fish, eggs, 0, meat, swim, low).
-animal(touseef, tiger, mammal, live_birth, 4, meat, run, high).
-animal(waqas, parrot, bird, eggs, 2, seeds, fly, medium).
-animal(aqueel, bear, mammal, live_birth, 4, omnivore, walk, medium).
-animal(zeenat, cheetah, mammal, live_birth, 4, meat, run, high).
-animal(faisal, rhino, mammal, live_birth, 4, vegetable, walk, low).
+animal(tanzeel, lion, live_birth, 4, meat, run, high).
+animal(ishrat, eagle, eggs, 2, meat, fly, high).
+animal(arslan, kangaroo, live_birth, 2, vegetable, jump, medium).
+animal(adil, snake, eggs, 0, meat, crawl, medium).
+animal(aneeq, dolphin, live_birth, 0, fish, swim, high).
+animal(usama,giraffe, live_birth, 4, vegetable, walk, medium).
+animal(awais, frog, eggs, 4, meat, jump, low).
+animal( sharjeel, penguin, live_birth, 4, vegetable, walk, high).
+animal(ayaz, salmon, eggs, 0, meat, swim, low).
+animal(touseef, tiger, live_birth, 4, meat, run, high).
+animal(waqas, parrot,eggs, 2, seeds, fly, medium).
+animal(aqueel, bear, live_birth, 4, omnivore, walk, medium).
+animal(zeenat, cheetah, live_birth, 4, meat, run, high).
+animal(faisal, rhino, live_birth, 4, vegetable, walk, low).
 % Query for an animal's details
 query(Name) :-
     animal(Name, Category, Reproduction, Legs, Diet, Movement, IQ),
