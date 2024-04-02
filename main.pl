@@ -33,7 +33,7 @@ animal(faisal, rhino, live_birth, 4, vegetable, walk, low).
 query(Name) :-
     animal(Name, Category, Reproduction, Legs, Diet, Movement, IQ),
     format('Category: ~w~n', [Category]),
-    format('Reproduction: ~w~n', [Reproduction]),
+    format('Sepices: ~w~n', [Reproduction]),
     format('Legs: ~d~n', [Legs]),
     format('Diet: ~w~n', [Diet]),
     format('Movement: ~w~n', [Movement]),
